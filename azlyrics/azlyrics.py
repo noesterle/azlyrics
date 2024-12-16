@@ -2,8 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import json
 
-agent = 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) \
-        Gecko/20100101 Firefox/24.0'
+agent = 'Mozilla/5.0 (X11; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0'
 headers = {'User-Agent': agent}
 base = "https://www.azlyrics.com/"
 
