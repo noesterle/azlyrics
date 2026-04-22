@@ -15,7 +15,7 @@ def artists(letter):
         soup = BeautifulSoup(req.content, "html.parser")
         data = []
 
-        for div in soup.find_all("div", {"class": "container main-page"}):
+        for div in soup.find_all("div", {"class": "artist-col"}):
             links = div.findAll('a')
             for a in links:
                 data.append(a.text.strip())
